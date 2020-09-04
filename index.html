@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEITON's BURGUER!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CLEITON's BURGUER!</h1>
+    </header>
+    <main>
+        <h1>Faça o seu Pedido: </h1>
+        <hr>
+        <form>
+            <p>
+                <label for="iproteina">Qual o tipo de proteína? </label> 
+                <input type="text" name="meu_primeiro_input" value=""id="iproteina">
+            </p> 
+            <p>
+                <label for="ihamburger">Quantos hamburgueres?</label> 
+                <input type="text" name="menu_segundo_input" value=""id="ihamburger">
+            </p> 
+            <hr>
+                Escolha o ponto da carne:
+            <p>
+                
+                Mal Passado <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> Bem Passado
+            </p>
+            <hr>
+                Adicionais:
+            <p>
+                <input type="checkbox">
+                <label class="folhas">Alface</label>
+                <input type="checkbox">
+                <label class="tomate">Tomate</label>
+                <input type="checkbox">
+                <label class="cebola">Cebola</label>
+            </p>
+            <hr>
+                Adicionar Queijo?
+            <p>
+                <input type="radio" name="queijo" id="isim">
+                <label for="isim">Sim</label>
+                <input type="radio" name="queijo" id="inao">
+                <label for="inao">Não</label>
+            </p>
+            <hr>
+                <label for="acompanhamento">Acompanhamento: </label>
+                <select name="text" id="id_acompanhamento">
+                <option value="batata">Batata</option>
+                <option value="coca">Coca</option>
+                </select>
+            <hr>
+                <label for="molhos">Qual molho você gostaria? </label>
+                <select name="text" id="id_molhos">
+                <option value="ketchup">Ketchup</option>
+                <option value="maionese">Maionese</option>
+                <option value="mostarda">Mostarda</option>
+                </select>
+            <p>
+                <label for="idesc">Mais Adicionais: </label> <br> <br>
+                <textarea name="desc" id="idesc" cols="60" rows="10"></textarea>
+                <hr>
+                <button>Enviar</button>
+            </p>
+            <script>
+                /*  alert("Salve Salve, hamburguer brabo compre imediatamente!")  */
+            </script>
+        </form>
+    </main>
+    <footer>
+        <strong>CLEITON's BURGUER!&copy;</strong> Todos os direitos reservados.
+    </footer>
+</body>
+</html>
