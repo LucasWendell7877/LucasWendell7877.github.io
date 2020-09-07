@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+body{
     box-sizing: border-box;
-}  
-html, body{
-    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
     background-color: rgb(230, 230, 230);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,15 +14,15 @@ header{
     background-color: black;
     color: white;
     background-image: url(hamburguer-800.jpeg);
-    height: 200px;
-    padding-top: 35px;
+    height: 20vh;
+    padding-top: 45px;
     background-repeat: no-repeat;
-    border-radius: 25px;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 7px black;
 }
 header > h1{
     font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 4px 4px 3px black;
 }
 img {
     display: block;
@@ -34,7 +35,7 @@ section{
 }
 main {
     background-color: rgb(37, 37, 37);
-    width: 700px;
+    width: 600px;
     margin: auto;
     color: white;
     border-radius: 25px;
@@ -42,6 +43,9 @@ main {
     padding-bottom: 1px;
     box-shadow: 5px 5px 7px black;
     text-shadow: 4px 4px 2px black;
+}
+form{
+    width: 100%;
 }
 .slider {
     -webkit-appearance: none; 
@@ -51,7 +55,7 @@ hr {
     width: 10vw;
   }
 h1{
-    font-family: 'Dancing Script', cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 footer {
     padding: 20px;
@@ -59,5 +63,27 @@ footer {
     background: black;
     margin-top: 20px;
     color: white;
-    border-radius: 10px;
   }
+@media screen and (max-width: 600px){
+    header{
+        font-size: 2.5vw;
+        height: 110px;
+        background-size: 500px;
+    }
+    header > h1{
+        margin-top: 2px;
+    }
+    main{
+        font-size: 3.2vw;
+        width: 98%;
+    }
+    input.primeiro{
+        width: 30%;
+    }
+    .slider{
+        width: 25%;
+    }
+    .textarea{
+        width: 85%;
+    }
+}
