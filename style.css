@@ -76,6 +76,7 @@ footer {
     main{
         font-size: 3.2vw;
         width: 98%;
+        box-shadow: 0px 0px 0px;
     }
     input.primeiro{
         width: 30%;
