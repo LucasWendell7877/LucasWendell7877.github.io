@@ -171,9 +171,10 @@ iframe{
     ul.menu li {float: none;}
     main.comCaixa{
         font-size: 3.2vw;
-        width: 98%;
+        width: 95%;
         box-shadow: 0px 0px 0px;
         margin-top: 185px;
+        margin-bottom: 300px;
     }
     textarea#imensagem{
         width: 320px;
