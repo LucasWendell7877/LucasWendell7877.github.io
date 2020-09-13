@@ -75,16 +75,26 @@ main.comCaixa {
     text-shadow: 4px 4px 2px black;
     font-family: 'Architects Daughter', cursive;
 }
-main#faleconosco{
-    text-align: left;
+main#faleConosco{
+    text-align: center;
     padding-left: 20px;
     padding-bottom: 20px;
 }
-main#faleconosco > h1{
+main#faleConosco > h1{
     text-align: center;
 }
 main > h1{
     font-family: 'Architects Daughter', cursive;
+}
+main#iCardapio > p {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+a#link {
+    color: white;
+}
+a#link:hover {
+    color: red;
 }
 input#inome{
     width: 300px;
@@ -111,14 +121,14 @@ footer {
     padding: 20px;
     text-align: center;
     background: black;
-    margin-top: 20px;
+    margin-top: 300px;
     color: white;
   }
 footer.home {
-    position: fixed;
+    
     left: 0;
     bottom: 0;
-    width: 100%;
+    margin-top: 360px
   }
 footer.pedido {
     left: 0;
@@ -130,6 +140,7 @@ h1.cardapio{
     text-shadow: 3px 3px 3px black;
 
 }
+
 table{
     width: 500px;
     margin: auto;
